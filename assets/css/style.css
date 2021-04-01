@@ -8,9 +8,15 @@ body{
 footer .col-6 > .rosa{
     background-color:salmon;
     border: 1px solid white;
+    padding:2px;
 }
 
 
-footer > .col-6{
-    height:150px;
+footer [class*="col-"] > [class*="col-"] {
+    height:100%;
+
+}
+
+footer .col-6{
+    padding:5px;
 }
