@@ -17,15 +17,14 @@
 
 .row{
     width:100%;
-    height:150px;
-    background-color:red;
+    background-color:lightpink;
 }
 
 /* \\\\\\ DEBUG \\\\\\ */
 
 .debug [class*="col-"]{
     border:1px solid black;
-    background-color: rebeccapurple;
+    background-color:lightpink;
     height:150px;
 }
 
